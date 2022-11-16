@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+:root {
+    --padding: 25px;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    padding: var(--padding);
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* um espaçamento pra ficar melhor */
+div {
+    margin-bottom: 40px;
+}
+
+/* nome app */
+h2 {
+    margin: 50px;
+    font-size: 40px;
+}
+
+/* formulario */
+form {
+    min-width: fit-content;
+    max-width: 35%;
+    margin: auto;
+}
+
+/* mudar a cor do glow azul que o boostrap coloca ao selecionar o input */
+.form-control:focus {
+    border-color: #CCCCCC;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 10px rgba(255, 255, 255, 0.8);
+}

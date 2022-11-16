@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+:root {
+    --spacing: 25px;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    padding: var(--padding);
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.container_fluid {
+    width: 90%;
+}
+
+.row h1 {
+    padding-left: 3%;
+}
+
+/* arrumar os links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color:rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+/* espaço entre as rows */
+.row {
+    margin-bottom: 30px;
+    margin-right: auto;
+}
+
+/* bom dia, rebeca! */
+header {
+    padding: 20px 0px 0px 20px;
+    margin-left: 5px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+/* títulos */
+h1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* ícones */
+.bi {
+    padding: 5px;
+}
+
+.bi-person-circle {
+    font-size: 35px;
+    margin-right: 10px;
+}
+
+/* as opções "detalhar", "adicionar conta" e "ver mais" */
+.op {
+    text-align: right;
+    margin-top: 5px;
+}
+
+/* saldo */
+#saldo {
+    background-color: rgb(204, 204, 204);
+}
+
+#saldo p {
+    font-size: 22px;
+    padding-top: 15px;
+}
+
+/* os paineis do saldo, cartões e gráfico */
+.caixa {
+    border-radius: 15px;
+    color: black;
+    margin: 7px;
+}
+
+/* cartões */
+.nome_cartao {
+    padding-top: 15px;
+}
+
+.limite, .nr_cartao {
+    text-align: right;
+}
+
+/* a barra de quanto foi gasto do total do limite do cartao */
+.barra {
+    padding: 4px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.gasto {
+    padding: 2px;
+    border-radius: 5px;
+}
+
+/* cartao 1 */
+#cartao1 {
+    background-image: linear-gradient(to left bottom, rgba(187, 123, 28, 0.9), rgba(255, 201, 101,1));
+}
+
+#cartao1 .gasto {
+    background-color: rgb(255, 201, 101);
+    width: 6%;
+}
+
+/* cartao 2 */
+#cartao2 {
+    background-image: linear-gradient(to left bottom, rgba(134, 72, 134, 0.9), rgba(189, 126, 189, 1));
+}
+
+#cartao2 .gasto {
+    background-color: rgb(189, 126, 189);
+    width: 17%;
+}
+
+/* cartao 3 */
+#cartao3 {
+    background-image: linear-gradient(to left bottom, rgba(145, 143, 143, 0.9), rgba(204, 204, 204, 1));
+}
+
+
+#cartao3 .gasto {
+    background-color: rgb(204, 204, 204);
+    width: 58%;
+}
+
+/* gráfico */
+.graph {
+    background-color: rgb(204, 204, 204);
+    padding: 80px;
+    position: relative;
+}
+
+/* como não aprendemos a fazer um gráfico ainda, inseri uma imagem simulando ele */
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80%;
+    margin: 0;
+}
+
