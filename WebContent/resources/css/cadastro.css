@@ -31,7 +31,7 @@ h2 {
 /* formulario */
 form {
     min-width: fit-content;
-    max-width: 35%;
+    max-width: 33%;
     margin: auto;
 }
 
@@ -40,9 +40,3 @@ form {
     border-color: #CCCCCC;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 10px rgba(255, 255, 255, 0.8);
 }
-
-/* arrumar distância do ultimo botão, de entrar
-a {
-	margin-bottom: 25px;
-}
-*/

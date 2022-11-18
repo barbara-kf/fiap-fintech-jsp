@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
 
 :root {
-    --spacing: 25px;
+    --padding: 25px;
 }
 
 html, body {
@@ -111,7 +111,7 @@ h1 {
 
 /* cartao 1 */
 #cartao1 {
-    background-image: linear-gradient(to left bottom, rgba(187, 123, 28, 0.9), rgba(255, 201, 101,1));
+    background-image: linear-gradient(to left bottom, rgba(0, 0, 0, 0.9), rgba(255, 201, 101,1));
 }
 
 #cartao1 .gasto {
@@ -121,7 +121,7 @@ h1 {
 
 /* cartao 2 */
 #cartao2 {
-    background-image: linear-gradient(to left bottom, rgba(134, 72, 134, 0.9), rgba(189, 126, 189, 1));
+    background-image: linear-gradient(to left bottom, rgba(0, 0, 0, 0.9), rgba(189, 126, 189, 1));
 }
 
 #cartao2 .gasto {
@@ -131,7 +131,7 @@ h1 {
 
 /* cartao 3 */
 #cartao3 {
-    background-image: linear-gradient(to left bottom, rgba(145, 143, 143, 0.9), rgba(204, 204, 204, 1));
+    background-image: linear-gradient(to left bottom, rgba(0, 0, 0, 0.9), rgba(204, 204, 204, 1));
 }
 
 

@@ -20,6 +20,7 @@
             </header>
         </div>
 
+<!-- TROCAR OS VALORES PARA 0 E TROCAR POR CÓDIGO QUE ATUALIZA SOZINHO CONFORME INCLUI DESDESA OU RECEITA -->
         <div class="row">
             <h1 class="col-sm-2">Saldo</h1>
             <div id="saldo" class="caixa col-sm-3">
@@ -32,7 +33,9 @@
                 <p>Saída<br>R$ 2.879,91 <i class="bi bi-eye-slash"></i></p>
             </div>
             <a target="_self" href="" class="op">incluir<i class="bi bi-plus-lg"></i></a>
-            <a target="_self" href="" class="op">detalhar<i class="bi bi-chevron-double-right"></i></a>
+            
+       <!-- CONTINUAR PÁGINA DE EXTRATNO -->
+            <a href="extrato.jsp" class="op">detalhar<i class="bi bi-chevron-double-right"></i></a>
         </div>
 
         <div class="row">
@@ -64,11 +67,18 @@
                     <p class="limite">R$3.000,00</p>
                     <p class="nr_cartao">*8647</p>
                 </div>
+                
+<!-- DAR UM JEITO DE A BARRA DO GASTO SER CALCULADA SOZINHA E ALTERADA NO CSS OU DEIXAR CSS POR HTML -->
+                
+<!-- COLOCAR AQUI CÓDIGO EM JSP QUE INSERE CARTÃO COM UM PRÓXIMO ID NA DIV (cartao4, por exemplo)-->
+				
             </div>
+            <!-- CRIAR PÁGINA PARA EDITAR, PARA SELECIONAR QUAL REMOVER OU MUDAR A COR -->
             <a target="_self" href="" class="op">editar<i class="bi bi-pencil"></i></a>
-            <a target="_self" href="" class="op">adicionar<i class="bi bi-plus-lg"></i></a>
+            <a href="add_cartao.jsp" class="op">adicionar<i class="bi bi-plus-lg"></i></a>
         </div>
 
+<!-- REMOVER GRÁFICO? CRIAR PÁGINA PRA ELE E -->
         <div class="row">
             <h1 class="col-sm-2">Gráfico</h1>
             <div class="graph caixa col-sm-6">

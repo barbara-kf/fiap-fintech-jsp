@@ -4,6 +4,12 @@
     --padding: 25px;
 }
 
+/* remover setinhas do input number*/
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+	margin: 0;
+}
+
 html, body {
     height: 100%;
 }
@@ -14,7 +20,17 @@ body {
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    text-align: center;
+}
+
+/* arrumar os links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color:rgb(255, 255, 255);
+    font-weight: 500;
 }
 
 /* um espaçamento pra ficar melhor */
@@ -22,17 +38,19 @@ div {
     margin-bottom: 40px;
 }
 
-/* nome app */
-h2 {
-    margin: 50px;
-    font-size: 40px;
+/* adicionar cartão */
+h4 {
+    margin: 30px;
+    font-size: 28px;
+    text-align: center;
 }
 
 /* formulario */
 form {
     min-width: fit-content;
-    max-width: 33%;
+    max-width: 30%;
     margin: auto;
+    text-align: center;
 }
 
 /* mudar a cor do glow azul que o boostrap coloca ao selecionar o input */

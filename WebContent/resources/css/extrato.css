@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+:root {
+    --padding: 25px;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    padding: var(--padding);
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.container_fluid {
+    width: 90%;
+}
+
+/* arrumar os links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color:rgb(255, 255, 255);
+    font-weight: 500;
+}

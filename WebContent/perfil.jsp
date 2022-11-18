@@ -50,6 +50,7 @@
             <a href="_self"><i class="bi bi-gear"></i>Configurações</a>
         </div>
 
+<!-- INSERIR CÓDIGO QQUE EXCLUI CADASTRO DO BANCO DE DADOS -->
         <div class="row">
             <a href="_self"><i class="bi bi-trash"></i>Excluir cadastro</a>
         </div>

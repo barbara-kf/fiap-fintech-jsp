@@ -16,6 +16,7 @@
     <div class="container-fluid">
         <h2>Fintech</h2>
         
+    <!-- FAZER MENSAGEM DE SUCESSO FUNCIONAR E REDIRECIONAR AUTOMATICAMENTE PRA PAG DE LOGIN -->
         <c:if test="${not empty msg}">
         <div class="alert alert-success">${msg}</div>
         </c:if>
@@ -40,7 +41,8 @@
                 <label for="pwd">Senha:</label>
                 <input type="password" name="pwd" id="pwd" class="form-control text-center" placeholder="senha">
             </div>
-<!--  
+            
+<!--  DAR UM JEITO DE CONFIRMAR A SENHA OU DEIXAR SEM?
             <div class="form-group">
                 <label for="pwd-confirm">Confirme a senha:</label>
                 <input type="password" name="pwd-confirm" id="pwd-confirm" class="form-control text-center" placeholder="senha">

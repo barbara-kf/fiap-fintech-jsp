@@ -25,12 +25,11 @@
                 <label for="pwd">Senha:</label>
                 <input type="password" name="pwd" id="pwd" class="form-control text-center" placeholder="senha">
             </div>
-
-            <div>
-                <label><input type="checkbox"> Lembre-me</label>
-            </div>
-
+            
+<!-- FAZER ESSE INPUT FUNCIONAR E CASO DÊ ERRO, EXIBIR MENSAGEM ATRAVÉS DO JSP -->
             <input type="submit" value="Entrar" class="btn btn-outline-light">
+            
+<!-- lala link temporario apenas para ir pro index enquanto não conseguimos fazer o input de entrar funcionar  -->
             <a href="index.jsp">lala</a>
         </form>
         <br>
